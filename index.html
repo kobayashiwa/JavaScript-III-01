@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>総合演習 - 総合演習（１）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="navbar-brand"><img src="image/Logo.svg" alt="LonelyPlanet"></div>
+        <div class="navbar-collapse">
+            <ul class="sub-nav">
+                <li class="nav-item"><a href="#">GO PREMIUM</a></li>
+                <li class="nav-item"><a href="#">Live TV</a></li>
+                <li class="nav-item"><a href="#">Globe Trekker</a></li>
+                <li class="nav-item"><a href="#">Eat, Drink & Travel</a></li>
+                <li class="nav-item"><a href="#">Featured Shorts</a></li>
+                <li class="nav-item"><a href="#">Popular</a></li>
+                <li class="nav-item cp_ipselect cp_sl01">
+                    <select required>
+                        <option value="" hidden>All SHOWS</option>
+                        <option value="1">TOPGUN</option>
+                        <option value="2">PHILOSOPHIA</option>
+                        <option value="3">HARMONY</option>
+                        <option value="4">INSPIRE</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="input-group-append"><form action="#" method="get"><input id="sbox1"  id="s" name="s" type="text" placeholder="Search" /></form></div>
+            <div class="btn"><a href="#">Sign in</a></div>
+        </div>
+    </header>
+
+    <div class="main-carousel">
+            <div class="slide slide1"><h2>The Travel Kitchen series #51: Spanish churros</h2></div>
+            <div class="slide slide2"><h2>Free for a limited time: Stream hours of classic travel shows</h2></div>
+            <div class="slide slide3"><h2>Exploring Japanese traditions in the ‘Deep North’ region of Tohoku</h2></div>
+            <div class="slide slide4"><h2>This month: Explore these peaceful wellness walks</h2></div>
+            <div class="slide slide5"><h2>Find out what the coronavirus pandemic means for</h2></div>
+            <div class="slide slide6"><h2>This NYC preservation society wants landmark status for key sites in the struggle</h2></div>
+    </div>
+
+    <div class="swiper-wrapper-L">
+        <div class="container">
+            <h2>Across The Planet</h2>
+            <ul>
+                <!-- swiper-L -->
+                <li class="swiper-L">
+                    <div class="cover">
+                        <img src="image/swiper-L-cover01.png" alt="Launch">
+                    </div>
+                    <div class="detail">
+                        <h3>Launch</h3>
+                        <p class="Episode">Episode 1 from Season 1</p>
+                    </div>
+                </li>
+                <!-- swiper-L -->
+                <!-- swiper-L -->
+                <li class="swiper-L">
+                    <div class="cover">
+                        <img src="image/swiper-L-cover02.png" alt="London Street Art">
+                    </div>
+                    <div class="detail">
+                        <h3>London Street Art</h3>
+                        <p class="Episode">Episode 2 from Season 1</p>
+                    </div>
+                </li>
+                <!-- swiper-L -->
+                <!-- swiper-L -->
+                <li class="swiper-L">
+                    <div class="cover">
+                        <img src="image/swiper-L-cover03.png" alt="Bruges Chocolate">
+                    </div>
+                    <div class="detail">
+                        <h3>Bruges Chocolate</h3>
+                        <p class="Episode">Episode 3 from Season 1</p>
+                    </div>
+                </li>
+                <!-- swiper-L -->
+            </ul>
+        </div>
+    </div>
+
+<script>
+    const store = {
+        name : "東急ハンズ",
+        businessHours : {
+            opening : "10:00",
+            closing : "20:00",
+        },
+    };
+
+    console.log ("売っているのは" + store.name + "です");
+    console.log ("営業時間は" + store.businessHours.opening + "から" + store.businessHours.closing + "です");
+
+    var flkty = new Flickity( '.main-carousel', {
+  // options
+});
+
+</script>
+
+
+</body>
+</html>
+
+
