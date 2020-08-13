@@ -179,7 +179,7 @@ header {
 	font-size: 20px;
 	font-weight: 300;
 }
-.swiper-wrapper-L ul {
+.swiper-wrapper-L ul, .swiper-wrapper-S ul {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 8px;
