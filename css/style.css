@@ -172,6 +172,13 @@ header {
 	background-image: url(../image/ML_Esternosededrone.jpg);
 	background-size: cover;
  }
+ .flickity-page-dots .dot {
+	 background: #fff;
+	 opacity: 0.3;
+ }
+ .flickity-page-dots .dot.is-selected {
+	 background: #297CBB;
+ }
 .swiper-wrapper-L {
 	margin: 64px 0;
 }
