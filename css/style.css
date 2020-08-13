@@ -208,6 +208,10 @@ header {
 .swiper-wrapper-S {
 	margin-bottom: 64px;
 }
+.swiper-S {
+	width: 25%;
+	padding-left: 16px;
+}
 @media (max-width: 1290px) {
 	.navbar-collapse {
 		justify-content: flex-end;
