@@ -175,7 +175,7 @@ header {
 .swiper-wrapper-L {
 	margin: 64px 0;
 }
-.swiper-wrapper-L h2 {
+.swiper-wrapper-L h2, .swiper-wrapper-S h2 {
 	font-size: 20px;
 	font-weight: 300;
 }
