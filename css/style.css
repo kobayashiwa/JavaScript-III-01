@@ -243,6 +243,11 @@ header {
 @media (max-width: 670px) {
 	.swiper-wrapper-L ul {
 		flex-direction: column;
+		margin-left: 0;
+	}
+	.swiper-L {
+		width: 100%;
+		padding-left: 0;
 	}
 }
 
