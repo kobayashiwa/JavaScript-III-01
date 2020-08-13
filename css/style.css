@@ -189,7 +189,7 @@ header {
 	width: 33.33%;
 	padding-left: 16px;
 }
-.swiper-L img {
+.swiper-L img, .swiper-S img {
 	width: 100%;
 }
 .detail {
