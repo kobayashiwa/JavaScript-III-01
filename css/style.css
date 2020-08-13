@@ -253,6 +253,10 @@ header {
 		padding-left: 0;
 		margin-bottom: 32px;
 	}
+	.swiper-S {
+		width: 50%;
+		padding-left: 16px;
+	}
 }
 
 
