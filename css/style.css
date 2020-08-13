@@ -145,31 +145,37 @@ header {
  }
  .slide1 {
 	background-image: url(../image/7001.jpg);
+	background-position: center center;
 	background-size: cover;
  }
  
  .slide2 {
 	background-image: url(../image/9004.jpg);
+	background-position: center center;
 	background-size: cover;
  }
  
  .slide3 {
 	background-image: url(../image/7504.jpg);
+	background-position: center center;
 	background-size: cover;
  }
 
  .slide4 {
 	background-image: url(../image/7002.jpg);
+	background-position: center center;
 	background-size: cover;
  }
  
  .slide5 {
 	background-image: url(../image/ourheadoffice.jpg);
+	background-position: center center;
 	background-size: cover;
  }
  
  .slide6 {
 	background-image: url(../image/ML_Esternosededrone.jpg);
+	background-position: center center;
 	background-size: cover;
  }
  .flickity-page-dots .dot {
@@ -256,6 +262,7 @@ header {
 	.swiper-S {
 		width: 50%;
 		padding-left: 16px;
+		margin-bottom: 32px;
 	}
 }
 
