@@ -240,6 +240,11 @@ header {
 		width: 100%;
 	}
 }
+@media (max-width: 670px) {
+	.swiper-wrapper-L ul {
+		flex-direction: column;
+	}
+}
 
 
 
